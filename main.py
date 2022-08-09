@@ -74,7 +74,7 @@ def ExtractNewArticle(resp):
         
         if(is_ask_article):
             datastr += article_title + ' : '
-            datastr += minor_base_url + '&no='
+            datastr += 'https://gall.dcinside.com/mgallery/board/view/?id=game_dev' + '&no='
             datastr += str(gall_num)
             datastr += '\n'
 
